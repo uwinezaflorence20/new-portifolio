@@ -1,0 +1,419 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color: white;
+}
+.montserrat-uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+ /*------- home and navbar--------*/
+ 
+
+.logo img{
+    float: left;
+    width:60px;
+    padding-left: 0%;
+}
+nav{
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    z-index: 4;
+}
+ul{
+    list-style-type: none;  
+}
+li a{
+    float: right;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: large;   
+}
+li a:hover{
+    color:rgb(216, 216, 13);
+}
+.image img{
+    padding-top: 10%;
+    padding-left:  200px ;
+    padding-bottom: 1%;
+}
+nav .fa-solid{
+    display: none;
+}
+/*@media only screen and (max-width: 600px) {
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #646941;
+        position: fixed;
+        top: 0;
+        left: -100px;
+        width: 100px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+    nav ul{
+        display: block;
+        margin: 25%
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        cursor: pointer;
+
+    }  
+}*/
+.home-content{
+    padding-left: 200px;
+    padding-top: 10%;
+    float: left;
+    color: white;
+  
+}
+.home-content button{
+    width: 150px;
+    padding: 15px 20px;
+    background-color: rgb(240, 240, 29);
+    font-size: 15px;
+}
+.home-content h3{
+    font-size: 30px;
+}
+.home-content h3 b{
+    font-size: 30px;
+    color:rgb(216, 216, 13);
+}
+.home-content h1{
+font-size: 56px;
+}
+.home-content h3 span {
+    color: rgb(151, 151, 47)
+}
+.social{
+    float: left;
+    padding-left:50%;
+    padding-top: 0px;
+    padding-bottom:20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ padding: 0px 140px 20px 0px;
+
+}
+.social:hover{
+    cursor: pointer;
+    color: #b9d027;
+}
+
+
+/*-------about me--------*/
+
+.about-me{
+    width: 100%; 
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+.about-me h1{
+    text-align: center;
+    font-size: 30px;
+    color: #eee89a;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+}
+.wrapper{
+  padding:0px 60px ; 
+   margin: 60px auto;
+}
+.content{
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+.content h3{
+    color: #dbd9c4;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.content p{
+   font-size: 20px;
+   color: white;
+   letter-spacing: 1px;
+}
+.contact-left button{
+    width: 150px;
+    padding: 15px 20px;
+    background-color: rgb(240, 240, 29);
+    font-size: 15px;
+}
+
+/*-------services---------*/
+.sevice{
+    padding-bottom: 60px;
+
+}
+.mine{
+    padding-bottom: 120px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.services-list{
+    display: flex;
+    justify-content: space-around; 
+    gap: 40px;
+    padding-left: 110px;
+}
+.services-list div{
+   background: #272424; 
+   padding:100px 65px;
+   font-size: 20px;
+   font-weight: 300;
+   border-right: 30px;
+   transition: background0.5s,transform 0.5s;
+}
+.services-list div:hover{
+  background-color:#696932;
+  transform: translateY(-10px); 
+}
+/*--------Project--------*/
+.ptext{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.ptext h4{
+    color: rgb(213, 213, 129);
+}
+ .pimage{
+    float:left;
+ }
+ .counters{
+    padding: 1em 0.5em;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    padding-top: 100px;
+ }
+ .counters div{
+   max-width: 150px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4 ,1 fr); 
+   gap: 2em 1em;
+ }
+ .counter{
+    position: relative;
+    padding-bottom: 40px;
+ }
+ .counter h1{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+ }
+ /*--------------contact me------*/
+ .container{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .btn{
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .sub-title{
+    font-size: 30px;
+ }
+.contact-left{
+    padding-left: 200px;
+    font-size: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-right{
+padding-top: 10px;
+
+}
+.contact-left p{
+    margin-top: 20px;
+}
+.contact-left p i{
+color:rgb(189, 210, 27);
+font-size: 25px;
+margin-right: 15px;
+}
+.social-icons{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition:transform 0.5s;
+    padding-left: 10px;
+}
+.social-icons a:hover{
+   color: #a3cb2b;
+   transform: translateY(-5px); 
+}
+.btn.btn2{
+    display: inline-block;
+    background: #b9d027;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea,form button {
+    float: right;
+    width: 50%;
+    border: 0;
+    outline:none;
+    background: #262626;
+    padding: 20px;
+    margin: 20px 10px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form button{
+    float: right;
+   flex-direction: row;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.social1{
+    padding-right:80%;
+    padding-top: 2px;
+    padding-bottom:20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.social1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.social1:hover{
+    cursor: pointer;
+    color: #b9d027;
+}
+.footerbottom{
+    font-size: 25px;
+    text-align: center;
+}
+.footerbottom span{
+    color: #c3c33c;
+}
+
+/*------------------for small screen-------------------*/
+@media (max-width: 768px) {
+    .wrapper {
+      flex-direction: column;
+
+    }
+    
+    .imgabout {
+      order: 1;
+      margin: 0 auto;
+    }
+    
+    .content {
+      order: 2;
+      
+    }
+    .home-content{
+        padding-left: 5%;
+    }
+    
+    .services-list > div {
+      width: 100%;
+    }
+    
+    .contact-left,
+    .contact-right {
+        padding-left: 4%;
+        font-size: 10px;
+    }
+    .contact-right input, text{
+    height: 4px;
+    padding: px;
+    }
+    
+    .social-icons {
+      flex-direction: column;
+    }
+    
+    .social-icons a {
+      margin: 5px auto;
+    }
+    .social-icon1 .footerbottom{
+        margin-right: 0px;
+        font-size: 1px;
+    }
+
+        nav ul {
+            margin-top: 0px;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-left: 0px;
+          background-color: #333;
+          width: 100%;
+          padding-right: 0px;
+          height: auto;
+          overflow: hidden;
+          transition: 0.5s;
+        }
+      
+        nav ul li {
+          text-align: center;
+          margin: 10px 0;
+        }
+      
+        nav ul i {
+          display: block;
+          color: #fff;
+          margin: 10px 0;
+        }
+        .ptext{
+            font-size: 85%;
+        }
+        .image{
+        padding-top: 70%;
+        padding-left: 0px;
+        }
+        
+      
+  }
